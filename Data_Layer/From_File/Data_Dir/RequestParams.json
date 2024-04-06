@@ -1,0 +1,28 @@
+{
+  "Login": [{
+  "Success": {
+    "username": "zhangsan",
+    "password": "lisi",
+    "login": "登陆"
+  }
+},
+ {
+  "Username_Null": {
+    "username": "",
+    "password": "lisi",
+    "login": "登陆"
+  }
+},
+    {
+      "Password_Error": {
+        "username": "zhangsan",
+        "password": "123456",
+        "login": "登陆"
+      }
+    }
+   ],
+  "AddCustomer":[
+  {"Success":{ "customer_name": "woodtest", "customer_phone": "18907047890","customer_mail": "fjwojefo@163.com","customer_type": "C","customer_address": "广州天河" }},
+  {"CustomerName_NotExist": {"customer_phone": "18907047890","customer_mail": "fjwojefo@163.com","customer_type": "C","customer_address": "广州天河" }},
+  {"CustomerName_Null": {"customer_name": "","customer_phone": "18907047890","customer_mail": "fjwojefo@163.com","customer_type": "C","customer_address": "广州天河" }},]
+}

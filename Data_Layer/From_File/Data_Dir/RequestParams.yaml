@@ -1,0 +1,53 @@
+Login:
+  - {"Success": {"username": "zhangsan","password": "lisi","login": "登陆"}}
+  - {"Username_Null": {"username": "","password": "lisi","login": "登陆"}}
+  - {"Password_Error": {"username": "zhangsan","password": "123456","login": "登陆"}}
+
+AddCustomer:
+  - {"Success":{ "customer_name": "woodtest", "customer_phone": "18907047890","customer_mail": "fjwojefo@163.com","customer_type": "C","customer_address": "广州天河" }}
+  - {"CustomerName_NotExist": {"customer_phone": "18907047890","customer_mail": "fjwojefo@163.com","customer_type": "C","customer_address": "广州天河" }}
+  - {"CustomerName_Null": {"customer_name": "","customer_phone": "18907047890","customer_mail": "fjwojefo@163.com","customer_type": "C","customer_address": "广州天河" }}
+
+DSMALL_Login:
+  - {"Success": {"uname":"admin","upassword":"admin","submit":"登陆"}}
+  - {"UserNameNot": {"uname":"fafewfw","upassword":"admin","submit":"登陆"}}
+  - {"PasswordError": {"uname":"admin","upassword":"adminfwefw","submit":"登陆"}}
+
+DSMALL1_Login:
+  - {"Success": {"username":"admin","userpwd":"admin888"} }
+
+DSMALL_AddCustomer:
+  - {"Success": {'company': 'test_he322', 'bscompany': '0', 'linkman': 'test', 'bslinkman': '0', 'mobile': '18907047123', 'bsmobile': '0', 'email': 'zemuerqi@163.com', 'Type': '已成交', 'start': '★★★★★', 'source': '电话营销', 'cuser': '超级管理员', 'user': '超级管理员', 'submit': '保存'}}
+
+DSMALL1_AddCustomer:
+  - {"Success": {"name":"hello1","chengjiao":"否","type":"B客户","linkman":"test","mobile":"18907047133","email":"15015922840@qq.com","area":"","address":"","content":""}}
+
+UpdateCustomer:
+  - {"Success": {"customer_phone": "18907112130"}}
+
+Web_Login:
+  - {"Success": {
+                 'username': 'jojo',
+                 'password': 'bean',
+                 'login.x': '49',
+                 'login.y': '15',
+                 'JSFormSubmit': 'off'}}
+
+
+
+Login_Suscsss:
+  - {"username": "zhangsan","password": "lisi","login": "登陆"}
+
+Login_Username_Null:
+  - {"username": "","password": "lisi","login": "登陆"}
+
+Login_Password_Error:
+  - {"username": "zhangsan","password": "123456","login": "登陆"}
+
+Add_Customer_Success:
+  - { "customer_name": "wood1233t", "customer_phone": "18907047890","customer_mail": "fjwojefo@163.com","customer_type": "C","customer_address": "广州天河" }
+
+Add_Customer_CustomerName:
+  - {"customer_phone": "18907047890","customer_mail": "fjwojefo@163.com","customer_type": "C","customer_address": "广州天河" }
+
+

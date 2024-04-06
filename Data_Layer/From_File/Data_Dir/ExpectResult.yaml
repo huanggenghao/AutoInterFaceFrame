@@ -1,0 +1,31 @@
+Login:
+  - {"Success": {"reason": "登陆成功", "result": {"password": "lisi", "username": "zhangsan"}, "error_code": 0}}
+  - {"Username_Null": {"reason": "用户名不存在", "result": [], "error_code": 2001}}
+  - {"Password_Error": {"reason": "密码错误", "result": [], "error_code": 2002}}
+
+AddCustomer:
+  - {"Success":{'reason': 'sucess', 'result': {'customer_name': 'woodtest', 'customer_type': 'C', 'customer_phone': '18907047890', 'customer_mail': 'fjwojefo@163.com', 'customer_address': '广州天河'}, 'error_code': 0}}
+  - {"CustomerName_NotExist":{"reason": "缺少客户名称", "result": [], "error_code": 2014}}
+  - {"CustomerName_Null": {"reason": "无效的客户名称", "result": [], "error_code": 2001}}
+
+
+DSMALL_Login:
+  - {"Success": {"text": "登录成功","Content-Type":"text/html; charset=utf-8"} }
+  - {"UserNameNot": {"text":"帐号或密码错误","Content-Type":"text/html; charset=utf-8"}}
+  - {"PasswordError": {"text":"帐号或密码错误","Content-Type":"text/html; charset=utf-8"}}
+
+DSMALL1_Login:
+  - {"Success": {"text":"个人资料","Content-Type":"text/html; charset=utf-8"} }
+
+DSMALL_AddCustomer:
+  - {"Success": {'text': 'art.dialog.close();', "Content-Type":"text/html; charset=utf-8"}}
+DSMALL1_AddCustomer:
+  - {"Success": {"text":"帐号或密码不能为空","Content-Type":"text/html; charset=utf-8"}}
+
+UpdateCustomer:
+  - {"Success":{'reason': '修改成功', 'error_code': 0}}
+
+
+Web_Login:
+  - {"Success": {"text":"nav.pl?page=menu&in=home","Content-Type":"text/html; charset=ISO-8859-1"}}
+
