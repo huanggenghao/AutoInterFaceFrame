@@ -6,9 +6,9 @@
 #Date:              2020/8/8 15:43
 #Description:表示的是需要重复执行测试用例的操作
 #--------------------------------------------------------------------------
-from AutoInterFaceFrame.Data_Layer.From_File.Read_TestCase import ReadTestCase
-from AutoInterFaceFrame.Data_Layer.From_File.Read_Yaml import ReadYaml
-from AutoInterFaceFrame.Common_Layer.PATH_CONSTANTS import EXPECT_PATH,PARAMS_PATH,EXCEL_PATH
+from Data_Layer.From_File.Read_TestCase import ReadTestCase
+from Data_Layer.From_File.Read_Yaml import ReadYaml
+from Common_Layer.PATH_CONSTANTS import EXPECT_PATH,PARAMS_PATH,EXCEL_PATH
 import requests
 def repeate_excute(read, mock_request, sheet, row,get_public_case_id):
     # 获取总行

@@ -6,17 +6,17 @@
 #Date:              2020/8/4 21:36
 #Description:程序主入口
 #--------------------------------------------------------------------------
-from AutoInterFaceFrame.Request_Layer.Mock_RequestOperation import MockRequestOperation
-from AutoInterFaceFrame.Data_Layer.From_File.Read_Yaml import ReadYaml
-from AutoInterFaceFrame.Data_Layer.From_File.Read_TestCase import ReadTestCase
-from AutoInterFaceFrame.Common_Layer.PATH_CONSTANTS import EXPECT_PATH,PARAMS_PATH,EXCEL_PATH
-from AutoInterFaceFrame.Data_Layer.From_File.Com_Expect_Actual import CompareExpectActual
-from  openpyxl.styles.fonts import Font
+from Request_Layer.Mock_RequestOperation import MockRequestOperation
+from Data_Layer.From_File.Read_Yaml import ReadYaml
+from Data_Layer.From_File.Read_TestCase import ReadTestCase
+from Common_Layer.PATH_CONSTANTS import EXPECT_PATH,PARAMS_PATH,EXCEL_PATH
+from Data_Layer.From_File.Com_Expect_Actual import CompareExpectActual
+from openpyxl.styles.fonts import Font
 from openpyxl.styles import Alignment
 from openpyxl.styles import Color
-from AutoInterFaceFrame.Depend_Layer.Depend_Cookie import DependCookie
-from AutoInterFaceFrame.Depend_Layer.Depend_Response import DependResponse
-from AutoInterFaceFrame.Request_Layer.Session_RequestOperation import SessionRequestOperation
+from Depend_Layer.Depend_Cookie import DependCookie
+from Depend_Layer.Depend_Response import DependResponse
+from Request_Layer.Session_RequestOperation import SessionRequestOperation
 import re
 import requests
 class RunMain(object):

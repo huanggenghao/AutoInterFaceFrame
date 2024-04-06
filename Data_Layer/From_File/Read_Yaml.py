@@ -7,7 +7,7 @@
 #Description:主要完成的是接口所需要的参数提取的代码封装
 #--------------------------------------------------------------------------
 import yaml
-from AutoInterFaceFrame.Common_Layer.PATH_CONSTANTS import PARAMS_PATH,EXPECT_PATH
+from Common_Layer.PATH_CONSTANTS import PARAMS_PATH,EXPECT_PATH
 class  ReadYaml(object):
      def __call__(self,yamlpath,parent,child):
          #请求参数会存储到的yaml中，如果预期结果也是使用yaml存储的话，那么该模块不能够单纯的只能够操作参数的形式，就必须合并一个模块操作

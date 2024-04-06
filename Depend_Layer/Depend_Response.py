@@ -6,9 +6,9 @@
 #Date:              2020/8/8 14:52
 #Description:解决依赖响应体中的数据
 #--------------------------------------------------------------------------
-from AutoInterFaceFrame.Depend_Layer.Repeat_Excute import repeate_excute
-from AutoInterFaceFrame.Data_Layer.From_File.Read_Yaml import ReadYaml
-from AutoInterFaceFrame.Common_Layer.PATH_CONSTANTS import EXPECT_PATH,PARAMS_PATH,EXCEL_PATH
+from Depend_Layer.Repeat_Excute import repeate_excute
+from Data_Layer.From_File.Read_Yaml import ReadYaml
+from Common_Layer.PATH_CONSTANTS import EXPECT_PATH,PARAMS_PATH,EXCEL_PATH
 class  DependResponse(object):
     @staticmethod
     def get_depend_response(read, mock_request, sheet, row):

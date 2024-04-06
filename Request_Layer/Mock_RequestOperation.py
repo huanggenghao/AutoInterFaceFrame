@@ -6,10 +6,10 @@
 #Date:              2020/8/2 16:05
 #Description:
 #--------------------------------------------------------------------------
-from AutoInterFaceFrame.Request_Layer.Request_Operation import RequestOperation
-from AutoInterFaceFrame.Data_Layer.From_File.Read_Yaml import ReadYaml
-from AutoInterFaceFrame.Data_Layer.From_File.Read_TestCase import ReadTestCase
-from AutoInterFaceFrame.Common_Layer.PATH_CONSTANTS import EXPECT_PATH,PARAMS_PATH
+from Request_Layer.Request_Operation import RequestOperation
+from Data_Layer.From_File.Read_Yaml import ReadYaml
+from Data_Layer.From_File.Read_TestCase import ReadTestCase
+from Common_Layer.PATH_CONSTANTS import EXPECT_PATH,PARAMS_PATH
 from unittest import mock
 class MockRequestOperation(RequestOperation):
 

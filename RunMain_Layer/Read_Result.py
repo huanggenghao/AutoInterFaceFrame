@@ -7,18 +7,18 @@
 #Description:
 #--------------------------------------------------------------------------
 #需要获取到excel中的所有数据
-from AutoInterFaceFrame.Data_Layer.From_File.Read_TestCase import ReadTestCase
-from AutoInterFaceFrame.Request_Layer.Mock_RequestOperation import MockRequestOperation
-from AutoInterFaceFrame.Data_Layer.From_File.Read_Yaml import ReadYaml
-from AutoInterFaceFrame.Data_Layer.From_File.Read_TestCase import ReadTestCase
-from AutoInterFaceFrame.Common_Layer.PATH_CONSTANTS import EXPECT_PATH,PARAMS_PATH,EXCEL_PATH
-from AutoInterFaceFrame.Data_Layer.From_File.Com_Expect_Actual import CompareExpectActual
-from  openpyxl.styles.fonts import Font
+from Data_Layer.From_File.Read_TestCase import ReadTestCase
+from Request_Layer.Mock_RequestOperation import MockRequestOperation
+from Data_Layer.From_File.Read_Yaml import ReadYaml
+from Data_Layer.From_File.Read_TestCase import ReadTestCase
+from Common_Layer.PATH_CONSTANTS import EXPECT_PATH,PARAMS_PATH,EXCEL_PATH
+from Data_Layer.From_File.Com_Expect_Actual import CompareExpectActual
+from openpyxl.styles.fonts import Font
 from openpyxl.styles import Alignment
 from openpyxl.styles import Color
-from AutoInterFaceFrame.Depend_Layer.Depend_Cookie import DependCookie
-from AutoInterFaceFrame.Depend_Layer.Depend_Response import DependResponse
-from AutoInterFaceFrame.Request_Layer.Session_RequestOperation import SessionRequestOperation
+from Depend_Layer.Depend_Cookie import DependCookie
+from Depend_Layer.Depend_Response import DependResponse
+from Request_Layer.Session_RequestOperation import SessionRequestOperation
 import requests
 import re
 class  ReadResult(object):

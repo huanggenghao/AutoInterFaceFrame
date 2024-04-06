@@ -6,7 +6,7 @@
 #Date:              2020/8/2 16:22
 #Description:将请求运行运行的结果写入到Excel中
 #--------------------------------------------------------------------------
-from AutoInterFaceFrame.Common_Layer.PATH_CONSTANTS import EXCEL_PATH
+from Common_Layer.PATH_CONSTANTS import EXCEL_PATH
 import openpyxl
 class  CompareExpectActual(object):
 

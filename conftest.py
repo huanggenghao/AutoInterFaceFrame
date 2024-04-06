@@ -7,9 +7,9 @@
 #Description:这是所有包都共享的conftest中的固件对象
 #--------------------------------------------------------------------------
 import pytest
-from AutoInterFaceFrame.RunMain_Layer.Run_Main import RunMain
-from AutoInterFaceFrame.Request_Layer.Mock_RequestOperation import MockRequestOperation
-from AutoInterFaceFrame.Request_Layer.Session_RequestOperation import SessionRequestOperation
+from RunMain_Layer.Run_Main import RunMain
+from Request_Layer.Mock_RequestOperation import MockRequestOperation
+from Request_Layer.Session_RequestOperation import SessionRequestOperation
 import time
 #声明数据库的固件对象
 # @pytest.fixture(scope='class')

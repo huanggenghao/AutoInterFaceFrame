@@ -6,7 +6,7 @@
 #Date:              2020/8/9 14:57
 #Description:如果是session请求的话则需要创建该对象进行完成请求的发送
 #--------------------------------------------------------------------------
-from AutoInterFaceFrame.Request_Layer.Mock_RequestOperation import MockRequestOperation
+from Request_Layer.Mock_RequestOperation import MockRequestOperation
 from requests import Session
 import requests
 class  SessionRequestOperation(MockRequestOperation):

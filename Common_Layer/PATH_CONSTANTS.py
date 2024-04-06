@@ -7,8 +7,8 @@
 #Description:
 #--------------------------------------------------------------------------
 import os
-from AutoInterFaceFrame.Data_Layer.From_File.Data_Dir.PATH import FROM_FILE_BASE_DIR
-from AutoInterFaceFrame.Common_Layer.Read_Data_Ini import ReadDataIni
+from Data_Layer.From_File.Data_Dir.PATH import FROM_FILE_BASE_DIR
+from Common_Layer.Read_Data_Ini import ReadDataIni
 #获取Excel文件所在的路径
 EXCEL_PATH=os.path.join(FROM_FILE_BASE_DIR,ReadDataIni()("excelpath","excelpath"))
 #获取YAML文件所在的路径

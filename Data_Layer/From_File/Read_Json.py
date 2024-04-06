@@ -6,7 +6,7 @@
 #Date:              2020/10/28 11:28
 #Description:
 #--------------------------------------------------------------------------
-from AutoInterFaceFrame.Data_Layer.CONSTANT import JSON_PATH
+from Data_Layer.CONSTANT import JSON_PATH
 import json
 class  ReadParams:
      def __init__(self):

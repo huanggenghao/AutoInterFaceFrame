@@ -6,11 +6,11 @@
 #Date:              2020/8/9 17:05
 #Description:直接测试所有的测试用例
 #--------------------------------------------------------------------------
-from AutoInterFaceFrame.RunMain_Layer.Run_Main import RunMain
+from RunMain_Layer.Run_Main import RunMain
 import pytest
 from allure import dynamic
 import allure
-from AutoInterFaceFrame.RunMain_Layer.Read_Result import ReadResult
+from RunMain_Layer.Read_Result import ReadResult
 readresult=ReadResult()
 get_all_result=readresult.get_all_result()
 #self.get_request_object(self.read,sheet,row),get_method,get_url,get_params_value,get_mock,get_expect_value,get_ifpass

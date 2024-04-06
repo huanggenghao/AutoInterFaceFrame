@@ -8,9 +8,9 @@
 #--------------------------------------------------------------------------
 #请求操作的代码封装
 import requests
-from AutoInterFaceFrame.Data_Layer.From_File.Read_Yaml import ReadYaml
-from AutoInterFaceFrame.Data_Layer.From_File.Read_TestCase import ReadTestCase
-from AutoInterFaceFrame.Common_Layer.PATH_CONSTANTS import EXPECT_PATH,PARAMS_PATH
+from Data_Layer.From_File.Read_Yaml import ReadYaml
+from Data_Layer.From_File.Read_TestCase import ReadTestCase
+from Common_Layer.PATH_CONSTANTS import EXPECT_PATH,PARAMS_PATH
 from unittest import mock
 class  RequestOperation(object):
 

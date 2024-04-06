@@ -7,9 +7,9 @@
 #Description:实现测试用例读取操作并完成代码封装，要将excel中的每行每列进行提取出来
 #--------------------------------------------------------------------------
 import openpyxl
-from AutoInterFaceFrame.Data_Layer.EXCEL_CONSTANT import *
-from AutoInterFaceFrame.Data_Layer.From_File.Read_Yaml import ReadYaml
-from AutoInterFaceFrame.Common_Layer.PATH_CONSTANTS import EXCEL_PATH,EXPECT_PATH,PARAMS_PATH
+from Data_Layer.EXCEL_CONSTANT import *
+from Data_Layer.From_File.Read_Yaml import ReadYaml
+from Common_Layer.PATH_CONSTANTS import EXCEL_PATH,EXPECT_PATH,PARAMS_PATH
 class  ReadTestCase(object):
     def __init__(self):
         #获取操作excel的对象,需要传入execl文件所在路径
